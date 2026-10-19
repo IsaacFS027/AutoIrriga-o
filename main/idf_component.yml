@@ -1,0 +1,11 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=4.1.0'
+
+  # Sua biblioteca da tela OLED
+  k0i05/esp_ssd1306: ^1.2.7
+
+  esp-idf-lib/ds1302: '*'
+  esp-idf-lib/dht: '*'
