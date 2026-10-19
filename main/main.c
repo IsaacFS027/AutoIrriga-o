@@ -17,7 +17,7 @@ void app_main(void)
 {
     ESP_ERROR_CHECK(hardware_init());
     struct tm time = {0};
-
+    // receba
     /*struct tm tempo_inicial = {
         .tm_year = 2026 - 1900, // Ano atual (2026)
         .tm_mon  = 8,           // Setembro (Mês 0 a 11, onde 8 = Setembro)
